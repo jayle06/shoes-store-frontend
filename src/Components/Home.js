@@ -43,6 +43,12 @@ function Home() {
                     );
                 })}
             </div>
+            <div className="home-best-seller">
+                <h3>BESTSELLER</h3>
+            </div>
+            <div className="home-new-arrivals">
+                <h3>NEW ARRIVALS</h3>
+            </div>
         </div>
     )
 }

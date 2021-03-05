@@ -3,6 +3,7 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Home from './Components/Home';
 import Products from './Components/Products';
+import ScrollTop from './Components/ScrollTop';
 import './css/App.css';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           </Route>
         </Switch>
         <Footer/>
+        <ScrollTop />
       </div>
     </Router>
   );
