@@ -4,6 +4,7 @@
     justify-content: space-around;
     align-items: center;
     overflow: hidden;
+    /* border-bottom: 1px solid #555; */
 }
 
 .header-logo a{
