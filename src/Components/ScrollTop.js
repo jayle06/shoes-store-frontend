@@ -8,7 +8,6 @@ function ScrollTop() {
     const toggleVisible = () => {
         if(window.pageYOffset > 300) {
             setIsVisible(true);
-            console.log(window.pageYOffset);
         } else {
             setIsVisible(false);
         }

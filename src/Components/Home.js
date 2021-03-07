@@ -2,6 +2,9 @@
 import React, {useState} from 'react';
 import LeftIcon from '../svg/arrow-alt-circle-left-solid.svg';
 import RightIcon from '../svg/arrow-alt-circle-right-solid.svg';
+// import Products from './Products';
+// import Detail from './Detail';
+// import {Route} from 'react-router-dom';
 import '../css/Home.css';
 
 function Home() {
@@ -32,6 +35,8 @@ function Home() {
 
     return (
         <div className="home">
+            {/* <Route path="/products" component={Products} exact />
+            <Route path="/products/:id" component={Detail} /> */}
             <div className="home-banner">
                 <img className = "home-banner-left-icon" src={LeftIcon} all="" onClick={prevSlide} />
                 <img className = "home-banner-right-icon" src={RightIcon} all="" onClick={nextSlide} />
@@ -45,6 +50,8 @@ function Home() {
             </div>
             <div className="home-best-seller">
                 <h3>BESTSELLER</h3>
+                
+                {/* <Products /> */}
             </div>
             <div className="home-new-arrivals">
                 <h3>NEW ARRIVALS</h3>

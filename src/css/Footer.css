@@ -23,8 +23,8 @@
     font-size: 12px;
 }
 
-@media (max-width:650px){
+/* @media (max-width:650px){
     .footer {
-        position: absolute;
+        position: fixed;
     }
-}
+} */

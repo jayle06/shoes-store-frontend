@@ -3,6 +3,7 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Home from './Components/Home';
 import Products from './Components/Products';
+import Detail from './Components/Detail';
 import ScrollTop from './Components/ScrollTop';
 import './css/App.css';
 
@@ -12,6 +13,9 @@ function App() {
       <div className="app">
         <Header />
         <Switch>
+          <Route path="/products/:id">
+            <Detail />
+          </Route>
           <Route path="/products">
             <Products />
           </Route>
