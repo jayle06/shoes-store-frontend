@@ -9,7 +9,6 @@ function Detail(props) {
     // const[product, setProduct] = useState(null);
     let {id} = useParams();
     const product = data.products.find(product => product._id === id);
-    console.log(product);
     if(!product){
         return <div>404 Not Found!!!</div>;
     }    
