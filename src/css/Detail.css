@@ -13,6 +13,7 @@
     display: block;
     object-fit: cover;
     margin: 25px;
+    cursor: pointer;
 }
 
 .detail-content{
@@ -47,6 +48,26 @@
 
 .button-color:hover{
     transform: scale(1.2);
+}
+
+.button-logic{
+    background: lightgray;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+    outline: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.button-number{
+    background: white;
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
 .detail-content-row p{
